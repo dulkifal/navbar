@@ -5,12 +5,12 @@ const About = () => {
     <div
       style={{
         display: 'flex',
-        justifyContent: 'Right',
+        justifyContent: 'center',
         alignItems: 'Right',
         height: '100vh'
       }}
     >
-      <h1>GeeksforGeeks is a Computer Science portal for geeks.</h1>
+      <h1>It is about page</h1>
     </div>
   );
 };

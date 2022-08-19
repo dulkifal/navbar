@@ -5,12 +5,12 @@ const Events = () => {
     <div
       style={{
         display: 'flex',
-        justifyContent: 'Right',
+        justifyContent: 'center',
         alignItems: 'Right',
         height: '100vh'
       }}
     >
-      <h1>Welcome to GeeksforGeeks Events</h1>
+      <h1>Welcome to  these Events</h1>
     </div>
   );
 };
