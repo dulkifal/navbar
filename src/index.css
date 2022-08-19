@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ 
+
+@media screen and (max-width: 768px) {
+    
+.hide{
+  visibility: hidden;
+}
+.navElemts{
+display: flex;
+gap: 2rem;
+padding-bottom: 2rem;
+flex-direction: column;
+position: absolute;
+right: 1rem;
+top: 4rem;
+background-color: #63D471;
+
+}
+}

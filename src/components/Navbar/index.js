@@ -1,4 +1,6 @@
 import React from 'react';
+import { useState } from 'react';
+
 import {
   Nav,
   NavLink,
@@ -9,12 +11,15 @@ import {
 } from './NavbarElements';
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false)
+
+  const navElemts = open? 'navElemts': 'hide'
   return (
     <>
-      <Nav>
-        <Bars />
+      <Nav className='nav'>
+        <Bars onClick={() => { setOpen(!open) }} />
 
-        <NavMenu>
+        <NavMenu className={navElemts}>
           <NavLink to='/' activestyle>
             Home
           </NavLink>
